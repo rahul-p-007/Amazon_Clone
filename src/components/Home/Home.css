@@ -1,0 +1,14 @@
+.home {
+  max-width: 1500px;
+  margin-inline: auto;
+}
+.home__row {
+  display: flex;
+  gap: 80px;
+  padding-bottom: 2rem;
+}
+.home__image {
+  object-fit: contain;
+  width: 100%;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
